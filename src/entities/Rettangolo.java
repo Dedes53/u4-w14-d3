@@ -8,12 +8,15 @@ public class Rettangolo {
     private double perimetro;
     private double area;
 
+
     //    costruttore
     public Rettangolo(double base, double altezza) {
         this.base = base;
         this.altezza = altezza;
     }
 
+
+    //    metodi statici
     public static String stampaRettangolo(Rettangolo rettangolo) {
 
         return "Questo rettangolo ha perimetro " + rettangolo.perimetro() + " cm, ed area: " + rettangolo.area() + " cm2.";
@@ -31,6 +34,7 @@ public class Rettangolo {
                 "\nIl totale dei perimetri è: " + pA + pB + " cm, mentre il totale delle aree è: " + aA + aB + " cm2.";
     }
 
+
     //    metodi
     public Double perimetro() {
         this.perimetro = (this.altezza + this.base) * 2;
@@ -41,4 +45,6 @@ public class Rettangolo {
         this.area = this.altezza * this.base;
         return this.area;
     }
+
+
 }
