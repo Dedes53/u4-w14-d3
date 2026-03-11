@@ -1,4 +1,5 @@
 import entities.Rettangolo;
+import entities.Sim;
 
 import static entities.Rettangolo.stampa2Rettangoli;
 
@@ -14,6 +15,9 @@ public class Main {
 //        System.out.println(rettangolo2.area());
         System.out.println(stampa2Rettangoli(rettangolo, rettangolo2));
 
+
+        Sim federico = new Sim(3394667372L);
+        federico.stampaSim();
 
     }
 }

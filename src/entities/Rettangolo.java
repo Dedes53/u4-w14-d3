@@ -2,7 +2,7 @@ package entities;
 
 public class Rettangolo {
 
-    //    lista attributi
+    //    attributi
     private double base;
     private double altezza;
     private double perimetro;
